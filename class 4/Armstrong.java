@@ -1,6 +1,6 @@
 class Armstrong {
 	
-public static void main(String[] args){
+public static void main(String[0] args){
         
         int num=Integer.parseInt(args[0]);
         int sum=0,a;
