@@ -1,0 +1,22 @@
+GIT COMMANDS:-
+1.) our 1st task is "tell git who I am"
+   a.) git config --global user.name "vidhi-234"
+   b.)git config --global user.email sinhanidhi491@gmail.com
+2.)Create a new local repository
+  a.)git init
+3.)to add file in git
+  a.) git add <file name>// for add a particular file
+  b.) git addd .// for add all  file in git.
+  c.)git remote add origin https://github.com/vidhi-234/git-commands.git-commands ///as exapmle
+4.)for commit in git
+   a.)git commit -m "msg about file for git"//Commit changes to head (but not yet to the remote repository)
+   b.)git commit -a // for Commit any files you've added with git add, and also commit any files you've changed since then
+   c.)git commit -u --force// for add file with forcefully
+5.)for push in git repository
+   a.)git push origin master
+   b.)git push -u origin master
+6.)connet to a remote repository
+   a.) git remote add origin <server>   //git remote add origin https://github.com/vidhi-234/git-commands.git
+7.)for cheaking status
+   a.) git status.
+  
